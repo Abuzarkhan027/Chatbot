@@ -1,0 +1,163 @@
+{
+        "intents": [
+                {
+                        "tag": "greeting",
+                        "patterns": [
+                                "Hi",
+                                "How are you",
+                                "Is anyone there?",
+                                "Hello",
+                                "Good day"
+                        ],
+                        "responses": [
+                                "Hello, thanks for visiting",
+                                "Good to see you again",
+                                "Hi there, how can I help?",
+                                "Welcome to Genius Academy! I'm your chatbot and I'm here to help you with any questions you may have about our courses or programs. How can I assist you today?",
+                                "Hello there! I'm the chatbot for Genius Academy. Whether you're looking for information on our courses, admissions, or just want to learn more about what we do, I'm here to help.",
+                                "Hey, it's great to see you! As the chatbot for Genius Academy, I'm here to make your experience with us as smooth as possible. What can I help you with today?",
+                                "Greetings! Welcome to Genius Academy's chatbot. I'm always here to assist you, whether you're a prospective student, current student, or just curious about our programs. What can I help you with today?"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "goodbye",
+                        "patterns": [
+                                "Bye",
+                                "See you later",
+                                "Goodbye",
+                                "See you soon",
+                                "Talk to you later"
+                        ],
+                        "responses": [
+                                "See you later, thanks for visiting",
+                                "Have a nice day",
+                                "Bye! Come back again soon.",
+                                "Thanks for chatting with me! If you have any further questions, don't hesitate to reach out to us at Genius Academy. Have a great day!",
+                                "Goodbye! I hope I was able to assist you. If you need any more information, please feel free to contact us at Genius Academy. Take care!",
+                                "Bye for now! Remember that Genius Academy is always here to help you achieve your career goals. Don't hesitate to get in touch if you have any questions or concerns. Have a wonderful day!",
+                                "Goodbye and take care! It was great chatting with you. If you have any more questions or need any further information about our courses or programs, don't hesitate to reach out to us at Genius Academy."
+                        ]
+                },
+                {
+                        "tag": "thanks",
+                        "patterns": [
+                                "Thanks",
+                                "Thank you",
+                                "That's helpful",
+                                "Thank you so much"
+                        ],
+                        "responses": [
+                                "Happy to help!",
+                                "Any time!",
+                                "My pleasure",
+                                "You're welcome! I'm always here to assist you with any questions you may have about Genius Academy. Let me know if there's anything else I can do for you.",
+                                "You're welcome! It was my pleasure to assist you. If you have any more questions or concerns, feel free to reach out to us at Genius Academy. Have a great day!",
+                                "You're welcome! We're glad we could assist you. If there's anything else you need, just give us a shout at Genius Academy. Have a great day!"
+                        ]
+                },
+                {
+                        "tag": "hours",
+                        "patterns": [
+                                "What hours are you open?",
+                                "What are your hours?",
+                                "When are you open?",
+                                "What time do you close?"
+                        ],
+                        "responses": [
+                                "We're open every day 9am-5pm",
+                                "Our hours are 9am-5pm every day",
+                                "Our regular business hours are Monday to Friday, from 9am to 5pm. However, our courses and programs may have different schedules. Please check our website or contact us directly for more information.",
+                                "We're open Monday to Friday, from 9am to 5pm, and we're closed on weekends and holidays. However, we understand that our students have different schedules, so we offer customized learning options. Please contact us directly for more information."
+                        ]
+                },
+                {
+                        "tag": "courses",
+                        "patterns": [
+                                "Can you tell me about your courses?",
+                                "What courses do you offer?",
+                                "What kind of courses do you have?",
+                                "Do you have any online courses?",
+                                "What are your most popular courses?"
+                        ],
+                        "responses": [
+                                "We offer a wide range of courses in various fields such as technology, business, healthcare, and more. Some of our popular courses include web development, data science, project management, and healthcare administration. Please check our website or contact us for more information on our courses.",
+                                "At Genius Academy, we offer courses in various fields such as computer science, business, healthcare, and more. Our courses are designed to provide hands-on learning experiences and equip our students with practical skills. Please check our website or contact us for more details on our courses.",
+                                "Yes, we offer a variety of online courses that can be accessed from anywhere in the world. Our online courses cover topics such as web development, digital marketing, and project management, among others. Please check our website or contact us for more details on our online courses.",
+                                "Our most popular courses include web development, data science, and project management. These courses are designed to provide our students with practical skills that are in high demand in today's job market. Please check our website or contact us for more information on our popular courses."
+                        ]
+                },
+                {
+                        "tag": "duration",
+                        "patterns": [
+                                "How long do your courses last?",
+                                "What is the duration of your programs?",
+                                "How much time does it take to complete a course?",
+                                "What is the average duration of your courses?",
+                                "Do you offer any short-term courses?"
+                        ],
+                        "responses": [
+                                "The duration of our courses and programs varies depending on the field of study and the level of the course. Generally, our courses range from a few weeks to several months, while our programs can take up to a year or more to complete. Please check our website or contact us for more information on the duration of our courses and programs.",
+                                "The duration of our programs varies depending on the program and the level of study. Our certificate programs typically take a few months to complete, while our diploma and degree programs can take several years. Please check our website or contact us for more details on the duration of our programs.",
+                                "The duration of our courses varies depending on the course and the level of study. Our short-term courses can last anywhere from a few days to a few weeks, while our long-term courses can take several months to complete. Please check our website or contact us for more information on the duration of our courses.",
+                                "Yes, we offer a variety of short-term courses that can be completed in a few weeks or less. These courses are designed to provide our students with specific skills and knowledge in a short amount of time. Please check our website or contact us for more information on our short-term courses."
+                        ]
+                },
+                {
+                        "tag": "mode",
+                        "patterns": [
+                                "What modes of study do you offer?",
+                                "Can you tell me about your study modes?",
+                                "Do you offer online courses?",
+                                "Are your courses in-person or online?"
+                        ],
+                        "responses": [
+                                "We offer both in-person and online courses, so you can choose the mode of study that best fits your needs and schedule. Our in-person courses take place on our campus, while our online courses are delivered through our e-learning platform. Please note that not all courses are available in both modes of study.",
+                                "Yes, we offer online courses in addition to our in-person courses. Our online courses are delivered through our e-learning platform and offer a flexible and convenient option for students who prefer to study remotely. Please note that not all courses are available in both modes of study.",
+                                "We offer both in-person and online courses to accommodate different learning preferences and schedules. Depending on the course you choose, you may have the option to study in both modes or one specific mode. Please check our website or contact us for more information on our modes of study."
+                        ]
+                },
+                {
+                        "tag": "fees",
+                        "patterns": [
+                                "How much does it cost to take a course at Genius Academy?",
+                                "Can you give me information on the fees for your courses?",
+                                "What is the tuition fee for a program at Genius Academy?"
+                        ],
+                        "responses": [
+                                "The fees for our courses vary depending on the program and mode of study. We offer competitive pricing and financial assistance to eligible students. Please visit our website or contact us for more information on the fees for your preferred course or program.",
+                                "The tuition fees for our courses and programs vary depending on various factors, such as program duration and mode of study. We aim to keep our fees competitive and affordable for our students. Please visit our website or contact us for more information on the fees for your preferred program or course.",
+                                "At Genius Academy, we strive to make quality education accessible to all. Our course fees are determined by various factors, including program duration, mode of study, and course materials. Please visit our website or contact us to get a detailed breakdown of the fees for your preferred course or program. We also offer financial aid and scholarships to eligible students."
+                        ],
+                        "context_set": "rentalday"
+                },
+                {
+                        "tag": "payment",
+                        "patterns": [
+                                "How can I make a payment for my course?",
+                                "What are the payment options available for your courses?",
+                                "Can I pay for my course in installments?",
+                                "Is there a deadline for paying the tuition fees?"
+                        ],
+                        "responses": [
+                                "We offer several payment options to our students, including credit/debit card payments, bank transfers, and online payment platforms. You can choose the option that suits you best. Please note that some payment methods may not be available for certain courses or programs. Please visit our website or contact us for more information on the payment options available for your preferred course.",
+                                "We understand that paying for your course is an important decision, and we strive to provide our students with flexible and convenient payment options. We offer various payment methods, including online payment platforms and installment plans. Please contact us or visit our website for more information on the payment options available for your preferred course or program.",
+                                "We want to make sure that you have enough time to make your payment, so we set deadlines based on the start date of your course or program. Please make sure to check the deadline for your preferred course or program and make your payment before that date to secure your spot. If you have any questions or concerns about the payment process, please contact us or visit our website for more information."
+                        ]
+                },
+                {
+                        "tag": "opentoday",
+                        "patterns": [
+                                "Are you open today?",
+                                "When do you open today?",
+                                "What are your hours today?",
+                                "Can I visit your campus today?"
+                        ],
+                        "responses": [
+                                "Yes, we are open today. Our hours of operation are from 9:00 am to 5:00 pm.",
+                                "Our offices are open today from 9:00 am to 5:00 pm.",
+                                "Yes, you are welcome to visit our campus today during our hours of operation, which are from 9:00 am to 5:00 pm."
+                        ]
+                }
+        ]
+}
